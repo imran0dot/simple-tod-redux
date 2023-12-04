@@ -14,9 +14,8 @@ const reducer = (state = initialState, action) => {
                 ...state,
                 {
                     id: nextTtoId(state),
-                    text: 'complete the task',
+                    text: action.payload,
                     completed: false,
-                    color: 'red'
                 }
             ]
 
