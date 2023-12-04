@@ -1,5 +1,5 @@
-import todoReducer from "./filters/reducer";
-import filterReducer from "./todos/reducer";
+import filterReducer from "./filters/reducer";
+import todoReducer from "./todos/reducer";
 import { combineReducers } from "redux";
 
 
