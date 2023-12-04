@@ -1,10 +1,10 @@
 import { STATUSCHANGED, COLORCHNAGED } from "./actionTypes";
 
 
-const statusChanged = (status) => {
+const statusChanged = (state) => {
     return {
         type: STATUSCHANGED,
-        payload: status
+        payload: state
     }
 }
 
